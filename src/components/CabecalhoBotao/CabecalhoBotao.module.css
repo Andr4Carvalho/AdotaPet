@@ -1,0 +1,12 @@
+.botao{
+    color: var(--branco);
+    background-color: var(--roxoFundo);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--branco);
+    border-width: 1px;
+    padding: 0.5em 1em;
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;   
+}

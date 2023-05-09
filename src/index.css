@@ -1,8 +1,13 @@
+:root{
+  --fonte: 'Montserrat', sans-serif;
+  --branco: #FFFFFF;
+  --roxoEscuro: #000017;
+  --roxoFundo: #2C2943
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--fonte);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

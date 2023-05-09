@@ -1,0 +1,26 @@
+.containerLinha{
+    display: flex;
+    color: white;
+    padding: 2.5em 5em;
+}
+
+.container{
+    width: 50%;
+    margin: 0em 1em;
+}
+
+.cards{
+    margin-bottom: 1em;
+    padding: 0.5em 1.5em;
+    background-color: var(--roxoFundoEscuro);
+    border-radius: 25px;
+}
+
+p{
+    text-align: center;
+}
+
+.cardsUltimasAdocoes{
+    display: flex;
+    justify-content: space-around;
+}

@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em 5em;
+    padding: 0.1em 5em;
     background-color: var(--roxoEscuro);
 }
 
 .logo{
-    max-height: 70px;
+    max-height: 85px;
 }

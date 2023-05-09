@@ -1,0 +1,12 @@
+.rodape{
+    color: var(--branco);
+    background-color: var(--roxoEscuro);
+    margin: 0em 5em;
+    border-radius: 50px;
+    padding: 0.1em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}

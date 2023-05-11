@@ -2,15 +2,23 @@ import Titulo from 'components/Titulo';
 import styles from './Inicio.module.css'
 import { useEffect, useState } from 'react';
 import CardUltimasAdocoesInicio from 'components/CardsUltimasAdocoesInicio';
+import CardNoticias from 'components/CardsNoticias';
 
 function Inicio(){
     const [ultimasAdocoes, setultimasAdocoes] = useState([]);
+    const [noticias, setNoticias] = useState([]);
 
     useEffect(() => {
         fetch('https://my-json-server.typicode.com/Andr4Carvalho/AdotaPet/ultimasAdocoes')
         .then(resposta => resposta.json())
         .then(dados => {
             setultimasAdocoes(dados)
+        })
+
+        fetch('https://my-json-server.typicode.com/Andr4Carvalho/AdotaPet/noticias')
+        .then(resposta => resposta.json())
+        .then(dados => {
+            setNoticias(dados)
         })
     }, [])
 
@@ -50,6 +58,11 @@ function Inicio(){
                     <Titulo>
                         <h2>NOTÍCIAS</h2>
                     </Titulo>
+                    <section>
+                        {noticias.map((noticia) => {
+                            return <CardNoticias {...noticia} key={noticia.titulo} />
+                        })}
+                    </section>
                 </section>
             </div>
         </div>

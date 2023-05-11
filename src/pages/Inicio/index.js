@@ -1,8 +1,8 @@
 import Titulo from 'components/Titulo';
 import styles from './Inicio.module.css'
 import { useEffect, useState } from 'react';
-import CardUltimasAdocoesInicio from 'components/CardsUltimasAdocoesInicio';
-import CardNoticias from 'components/CardsNoticias';
+import CardUltimasAdocoesInicio from 'components/ComponentsPgInicio/CardsUltimasAdocoesInicio';
+import CardNoticias from 'components/ComponentsPgInicio/CardsNoticias';
 
 function Inicio(){
     const [ultimasAdocoes, setultimasAdocoes] = useState([]);

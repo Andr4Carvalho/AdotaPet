@@ -1,7 +1,7 @@
 import Titulo from 'components/Titulo';
 import styles from './Rodape.module.css'
 import { useEffect, useState } from 'react';
-import CardRodape from 'components/CardsRodape';
+import CardRodape from 'components/ComponentsRodape/CardsRodape';
 
 function Rodape(){
     const [parceiros, setParceiros] = useState([]);

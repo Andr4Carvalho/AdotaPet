@@ -17,7 +17,7 @@
     border-radius: 25px;
 }
 
-p{
+.paragrafoContato{
     text-align: center;
     font-size: 21px;
     line-height: 30px;
@@ -32,10 +32,35 @@ span{
 }
 
 input, textarea{
+    border: solid 1px var(--branco);
     margin-top: 1.5em;
     width: 90%;
     padding: 1em;
     background-color: var(--roxoFundo);
-    border-color: var(--branco);
     border-radius: 25px;
+    font-size: 16px;
 }
+
+.btnEnviar{
+    border: solid 1px var(--branco);
+    color: var(--branco);
+    margin-top: 1.5em;
+    padding: 1em 5em;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--branco);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--branco);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--branco);
+  }

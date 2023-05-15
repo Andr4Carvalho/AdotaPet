@@ -1,0 +1,12 @@
+.container{
+    margin: 5em 5em;
+    text-align: center;
+}
+
+.cards{
+    color: var(--branco);
+    margin-bottom: 1em;
+    padding: 2em 8em;
+    background-color: var(--roxoFundoEscuro);
+    border-radius: 25px;
+}

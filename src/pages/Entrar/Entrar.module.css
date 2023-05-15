@@ -1,0 +1,41 @@
+.container{
+    width: 40%;
+    margin: 5em auto;
+    text-align: center;
+}
+
+.cards{
+    color: var(--branco);
+    margin-bottom: 1em;
+    padding: 2em 8em;
+    background-color: var(--roxoFundoEscuro);
+    border-radius: 25px;
+}
+
+input{
+    border: solid 1px var(--branco);
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    width: 90%;
+    padding: 1em;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.btnEntrar{
+    border: solid 1px var(--branco);
+    color: var(--branco);
+    margin-top: 1.5em;
+    padding: 1em 5em;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.link{
+    color: var(--preto);
+    font-size: 17px;
+}

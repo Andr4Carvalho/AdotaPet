@@ -9,14 +9,14 @@ function Contato(){
                     <Titulo>
                         <h2>CONTATO</h2>
                     </Titulo>
-                    <p>
+                    <p className={styles.paragrafoContato}>
                         <br/>
                         <span>Endereço:</span> Rua Canarinho, N°: 01<br/>
                         <span>Bairro:</span> Passarinhos<br/>
                         <span>Cidade:</span> BirdCity<br/>
                         <span>UF:</span> Aves
                     </p>
-                    <p>
+                    <p className={styles.paragrafoContato}>
                         <br/>
                         <span>Telefone:</span> (00) 00000-0000<br/>
                         <span>Email:</span> adotapet@hotmail.com<br/>
@@ -63,10 +63,11 @@ function Contato(){
                                 type="text"
                                 name="Dúvida"
                                 placeholder='Dúvida'
+                                rows="13"
                             />
                         </div>
                         <div>
-                            <button type="submit">Enviar</button>
+                            <button type="submit" className={styles.btnEnviar}>Enviar</button>
                         </div>
                     </form>
                 </section>

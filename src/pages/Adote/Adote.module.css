@@ -1,0 +1,22 @@
+.titulo{
+    text-align: start!important;
+    color: var(--branco);
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divSidebar{
+    width: 15%;
+    height: 60vh;
+    padding: 1em;
+    background-color: var(--roxoFundoEscuro);
+    border-bottom-right-radius: 25px;
+}
+
+.divAnimais{
+    width: 80%;
+    padding: 1em;
+}

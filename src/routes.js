@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contato from "pages/Contato";
 import Entrar from "pages/Entrar";
 import Cadastro from "pages/Cadastro";
+import Adote from "pages/Adote";
 
 function AppRoutes(){
     return(
@@ -14,8 +15,8 @@ function AppRoutes(){
                     <Route path="/contato" element={<Contato />} />
                     <Route path="/entrar" element={<Entrar />} />
                     <Route path="/cadastro" element={<Cadastro />} />
-                    {/*<Route path="/adote" element={Adote} />
-                    <Route path="*" element={NaoEncontrada} />*/}
+                    <Route path="/adote" element={<Adote />} />
+                    {/*<Route path="*" element={NaoEncontrada} />*/}
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -1,0 +1,96 @@
+.linhaForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input {
+    display: block;
+    border: solid 1px var(--branco);
+    margin: 0.75em;
+    padding: 1em;
+    width: 100%;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.inputLabel {
+    display: flex;
+    border: solid 1px var(--branco);
+    margin: 0.75em;
+    padding: 0.8em 5em 0.8em 1em;
+    width: 100%;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    color: var(--branco);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputNascimento {
+    border: none;
+    background-color: var(--roxoFundo);
+    font-size: 17px;
+    color: var(--branco);
+}
+
+.inputNascimento:focus {
+    outline: none;
+}
+
+.inputRadio {
+    width: 2em;
+    height: 2em;
+    margin-right: 10px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+input {
+    color-scheme: dark;
+}
+
+.input170 {
+    display: block;
+    border: solid 1px var(--branco);
+    margin: 0.75em;
+    padding: 1em;
+    width: 170%;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.input50 {
+    display: block;
+    border: solid 1px var(--branco);
+    margin: 0.75em;
+    padding: 1em 2em;
+    width: 50%;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    font-size: 16px;
+    color: var(--branco);
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-size: contain;
+}
+
+.btnCadastrar{
+    border: solid 1px var(--branco);
+    color: var(--branco);
+    margin-top: 1.5em;
+    padding: 1em 5em;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    font-size: 19px;
+    font-weight: 500;
+}

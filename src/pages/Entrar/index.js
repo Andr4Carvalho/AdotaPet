@@ -15,6 +15,7 @@ function Entrar(){
                             type="text"
                             name="nome"
                             placeholder="Nome"
+                            className={styles.input}
                         />
                     </div>
                     <div>
@@ -22,6 +23,7 @@ function Entrar(){
                             type="password"
                             name="Senha"
                             placeholder='Senha'
+                            className={styles.input}
                         />
                     </div>
                     <div>

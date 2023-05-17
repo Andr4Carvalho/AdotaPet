@@ -11,15 +11,15 @@ function Contato(){
                     </Titulo>
                     <p className={styles.paragrafoContato}>
                         <br/>
-                        <span>Endereço:</span> Rua Canarinho, N°: 01<br/>
-                        <span>Bairro:</span> Passarinhos<br/>
-                        <span>Cidade:</span> BirdCity<br/>
-                        <span>UF:</span> Aves
+                        <span className={styles.span}>Endereço:</span> Rua Canarinho, N°: 01<br/>
+                        <span className={styles.span}>Bairro:</span> Passarinhos<br/>
+                        <span className={styles.span}>Cidade:</span> BirdCity<br/>
+                        <span className={styles.span}>UF:</span> Aves
                     </p>
                     <p className={styles.paragrafoContato}>
                         <br/>
-                        <span>Telefone:</span> (00) 00000-0000<br/>
-                        <span>Email:</span> adotapet@hotmail.com<br/>
+                        <span className={styles.span}>Telefone:</span> (00) 00000-0000<br/>
+                        <span className={styles.span}>Email:</span> adotapet@hotmail.com<br/>
                     </p>
                 </section>
                 <img src="logo.png" alt="Logo Adote um amigo" className={styles.imagem} />
@@ -35,6 +35,7 @@ function Contato(){
                                 type="text"
                                 name="nome"
                                 placeholder="Nome"
+                                className={styles.input}
                             />
                         </div>
                         <div>
@@ -42,6 +43,7 @@ function Contato(){
                                 type="email"
                                 name="email"
                                 placeholder='Email'
+                                className={styles.input}
                             />
                         </div>
                         <div>
@@ -49,6 +51,7 @@ function Contato(){
                                 type="number"
                                 name="telefone"
                                 placeholder='Telefone'
+                                className={styles.input}
                             />
                         </div>
                         <div>
@@ -56,6 +59,7 @@ function Contato(){
                                 type="text"
                                 name="assunto"
                                 placeholder='Assunto'
+                                className={styles.input}
                             />
                         </div>
                         <div>
@@ -64,6 +68,7 @@ function Contato(){
                                 name="Dúvida"
                                 placeholder='Dúvida'
                                 rows="13"
+                                className={styles.input}
                             />
                         </div>
                         <div>

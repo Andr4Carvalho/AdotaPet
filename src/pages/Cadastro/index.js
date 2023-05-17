@@ -1,3 +1,4 @@
+import FormCadastro from 'components/ComponentsCadastro/FormCadastro';
 import Titulo from 'components/Titulo';
 import styles from './Cadastro.module.css';
 
@@ -8,6 +9,7 @@ function Cadastro(){
                 <Titulo>
                     <h2>CADASTRO</h2>
                 </Titulo>
+                <FormCadastro />
             </section>
         </div>
     )

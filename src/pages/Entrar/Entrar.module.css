@@ -12,7 +12,7 @@
     border-radius: 25px;
 }
 
-input{
+.input{
     border: solid 1px var(--branco);
     margin-top: 0.75em;
     margin-bottom: 0.75em;

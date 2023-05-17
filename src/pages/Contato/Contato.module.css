@@ -23,7 +23,7 @@
     line-height: 30px;
 }
 
-span{
+.span{
     font-weight: 600;
 }
 
@@ -31,7 +31,7 @@ span{
     width: 400px;
 }
 
-input, textarea{
+.input{
     border: solid 1px var(--branco);
     margin-top: 1.5em;
     width: 90%;

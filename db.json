@@ -35,6 +35,72 @@
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELrxEHx0AHJSclVVx1ZMCiT5ZFIjVw-s9HA&usqp=CAU"
     }
   ],
+  "animaisDisponiveis": [
+    {
+      "nome": "Bala",
+      "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg",
+      "sexo": "Macho",
+      "peso": "25Kg",
+      "idade": "5 Anos",
+      "localizacao": "Araraquara - SP"
+    },
+    {
+      "nome": "Brutus",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vSpoqHN_B9IxwZ6oQhJH91VpgecpZdGAaQ&usqp=CAU",
+      "sexo": "Macho",
+      "peso": "25Kg",
+      "idade": "5 Anos",
+      "localizacao": "Araraquara - SP"
+    },
+    {
+      "nome": "Cometa",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELrxEHx0AHJSclVVx1ZMCiT5ZFIjVw-s9HA&usqp=CAU",
+      "sexo": "Macho",
+      "peso": "25Kg",
+      "idade": "5 Anos",
+      "localizacao": "Araraquara - SP"
+    },
+    {
+      "nome": "Desordem",
+      "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg",
+      "sexo": "Macho",
+      "peso": "25Kg",
+      "idade": "5 Anos",
+      "localizacao": "Araraquara - SP"
+    },
+    {
+      "nome": "Bala",
+      "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg",
+      "sexo": "Macho",
+      "peso": "25Kg",
+      "idade": "5 Anos",
+      "localizacao": "Araraquara - SP"
+    },
+    {
+      "nome": "Brutus",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vSpoqHN_B9IxwZ6oQhJH91VpgecpZdGAaQ&usqp=CAU",
+      "sexo": "Macho",
+      "peso": "25Kg",
+      "idade": "5 Anos",
+      "localizacao": "Araraquara - SP"
+    },
+    {
+      "nome": "Cometa",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELrxEHx0AHJSclVVx1ZMCiT5ZFIjVw-s9HA&usqp=CAU",
+      "sexo": "Macho",
+      "peso": "25Kg",
+      "idade": "5 Anos",
+      "localizacao": "Araraquara - SP"
+    },
+    {
+      "nome": "Desordem",
+      "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg",
+      "sexo": "Macho",
+      "peso": "25Kg",
+      "idade": "5 Anos",
+      "localizacao": "Araraquara - SP"
+    }
+  ],
   "noticias": [
     {
       "titulo": "Assim como pessoas com Alzheimer, cães idosos com demência têm menos sono profundo, diz estudo",

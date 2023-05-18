@@ -1,24 +1,135 @@
 {
     "parceiros": [
-        {
-            "nome": "Special Dog",
-            "logo": "https://seeklogo.com/images/S/special-dog-logo-4E0DEACB16-seeklogo.com.png"
-        },
-        {
-            "nome": "Dog Chow",
-            "logo": "https://seeklogo.com/images/D/dog-chow-logo-7D983DECF5-seeklogo.com.png"
-        },
-        {
-            "nome": "Golden",
-            "logo": "https://seeklogo.com/images/R/racao-golden-logo-D57BF73E6B-seeklogo.com.png"
-        },
-        {
-            "nome": "Cenavet",
-            "logo": "data:image/png;base64,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"
-        },
-        {
-            "nome": "Cibau",
-            "logo": "https://seeklogo.com/images/C/Cibau-logo-3418EDDD35-seeklogo.com.png"
-        }
+      {
+        "nome": "Special Dog",
+        "logo": "https://seeklogo.com/images/S/special-dog-logo-4E0DEACB16-seeklogo.com.png"
+      },
+      {
+        "nome": "Dog Chow",
+        "logo": "https://seeklogo.com/images/D/dog-chow-logo-7D983DECF5-seeklogo.com.png"
+      },
+      {
+        "nome": "Golden",
+        "logo": "https://seeklogo.com/images/R/racao-golden-logo-D57BF73E6B-seeklogo.com.png"
+      },
+      {
+        "nome": "Cenavet",
+        "logo": "https://scontent-gru1-2.xx.fbcdn.net/v/t1.18169-9/11206007_1446373258993719_1632876929572131561_n.png?stp=dst-png_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=7aed08&_nc_ohc=2VH8jcspDyoAX-lTb9E&_nc_ht=scontent-gru1-2.xx&oh=00_AfC6EWf3onbQ5VD_163XgSnsrvxKduOairmpUnv_ilVFXQ&oe=648CEF5D"
+      },
+      {
+        "nome": "Cibau",
+        "logo": "https://seeklogo.com/images/C/Cibau-logo-3418EDDD35-seeklogo.com.png"
+      }
+    ],
+    "ultimasadocoes": [
+      {
+        "nome": "Desordem",
+        "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg"
+      },
+      {
+        "nome": "Trovão",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vSpoqHN_B9IxwZ6oQhJH91VpgecpZdGAaQ&usqp=CAU"
+      },
+      {
+        "nome": "Bala",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELrxEHx0AHJSclVVx1ZMCiT5ZFIjVw-s9HA&usqp=CAU"
+      }
+    ],
+    "animaisDisponiveis": [
+      {
+        "nome": "Bala",
+        "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg",
+        "sexo": "Macho",
+        "peso": "25Kg",
+        "idade": "5 Anos",
+        "localizacao": "Araraquara - SP"
+      },
+      {
+        "nome": "Brutus",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vSpoqHN_B9IxwZ6oQhJH91VpgecpZdGAaQ&usqp=CAU",
+        "sexo": "Macho",
+        "peso": "25Kg",
+        "idade": "5 Anos",
+        "localizacao": "Araraquara - SP"
+      },
+      {
+        "nome": "Cometa",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELrxEHx0AHJSclVVx1ZMCiT5ZFIjVw-s9HA&usqp=CAU",
+        "sexo": "Macho",
+        "peso": "25Kg",
+        "idade": "5 Anos",
+        "localizacao": "Araraquara - SP"
+      },
+      {
+        "nome": "Desordem",
+        "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg",
+        "sexo": "Macho",
+        "peso": "25Kg",
+        "idade": "5 Anos",
+        "localizacao": "Araraquara - SP"
+      },
+      {
+        "nome": "Bala",
+        "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg",
+        "sexo": "Macho",
+        "peso": "25Kg",
+        "idade": "5 Anos",
+        "localizacao": "Araraquara - SP"
+      },
+      {
+        "nome": "Brutus",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vSpoqHN_B9IxwZ6oQhJH91VpgecpZdGAaQ&usqp=CAU",
+        "sexo": "Macho",
+        "peso": "25Kg",
+        "idade": "5 Anos",
+        "localizacao": "Araraquara - SP"
+      },
+      {
+        "nome": "Cometa",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELrxEHx0AHJSclVVx1ZMCiT5ZFIjVw-s9HA&usqp=CAU",
+        "sexo": "Macho",
+        "peso": "25Kg",
+        "idade": "5 Anos",
+        "localizacao": "Araraquara - SP"
+      },
+      {
+        "nome": "Desordem",
+        "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg",
+        "sexo": "Macho",
+        "peso": "25Kg",
+        "idade": "5 Anos",
+        "localizacao": "Araraquara - SP"
+      }
+    ],
+    "noticias": [
+      {
+        "titulo": "Assim como pessoas com Alzheimer, cães idosos com demência têm menos sono profundo, diz estudo",
+        "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/04/cachorro-animais-saude-getty.jpg?w=876&h=484&crop=1",
+        "data": "03/05/2023 às 04:00",
+        "categoria": "Saúde",
+        "link": "https://www.cnnbrasil.com.br/saude/assim-como-pessoas-com-alzheimer-caes-idosos-com-demencia-tem-menos-sono-profundo-diz-estudo/"
+      },
+      {
+        "titulo": "Motorista atropela passeador com cinco cachorros e foge sem prestar socorro em SP",
+        "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/05/atropela-cachorro.png?w=350&h=195&crop=1",
+        "data": "01/05/2023 às 08:57",
+        "categoria": "Nacional",
+        "link": "https://www.cnnbrasil.com.br/nacional/motorista-atropela-passeador-com-cinco-cachorros-e-foge-sem-prestar-socorro-em-sp/"
+      },
+      {
+        "titulo": "Cachorro é resgatado por bombeiros após ficar três dias em poço em Itapipoca (CE)",
+        "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/04/corpo_de_bombeiros_resgate_ceara-4-e1682351750933.jpeg?w=350&h=195&crop=1",
+        "data": "24/04/2023 às 12:56",
+        "categoria": "Nacional",
+        "link": "https://www.cnnbrasil.com.br/nacional/cachorro-e-resgatado-por-bombeiros-apos-ficar-tres-dias-em-poco-em-itapipoca-ce/"
+      },
+      {
+        "titulo": "México envia cães para ajudar no resgate a vítimas de terremoto; veja",
+        "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/328161e0-edee-447d-92ad-3b72bd2caf07.jpg?w=350&h=195&crop=1",
+        "data": "07/02/2023 às 22:12",
+        "categoria": "Internacional",
+        "link": "https://www.cnnbrasil.com.br/internacional/mexico-envia-caes-para-ajudar-no-resgate-a-vitimas-de-terremoto-veja/"
+      }
     ]
-}
+  }
+  

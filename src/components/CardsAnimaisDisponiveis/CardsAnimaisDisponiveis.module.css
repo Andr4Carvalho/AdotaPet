@@ -1,0 +1,51 @@
+.container{
+    margin-top: .5em;
+    margin-bottom: 100px;
+    padding: 0 0 1em 0;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    flex: 1 0 25%;
+}
+
+.capa{
+    height: 275px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.container .divInfos {
+    color: var(--branco);
+    position: absolute;
+    background-color: var(--roxoFundoEscuro);
+    width: 318px;
+    text-align: left;
+    padding: 0.5em 1em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    bottom: -100px;
+    line-height: 1.5;
+}
+
+.nomeAnimal{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.button{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: var(--roxoFundo);
+    border: solid 1px var(--branco);
+    color: var(--branco);
+    padding: 0.5em 0em;
+    border-radius: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}

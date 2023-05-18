@@ -1,40 +1,4 @@
 {
-    "parceiros": [
-      {
-        "nome": "Special Dog",
-        "logo": "https://seeklogo.com/images/S/special-dog-logo-4E0DEACB16-seeklogo.com.png"
-      },
-      {
-        "nome": "Dog Chow",
-        "logo": "https://seeklogo.com/images/D/dog-chow-logo-7D983DECF5-seeklogo.com.png"
-      },
-      {
-        "nome": "Golden",
-        "logo": "https://seeklogo.com/images/R/racao-golden-logo-D57BF73E6B-seeklogo.com.png"
-      },
-      {
-        "nome": "Cenavet",
-        "logo": "https://scontent-gru1-2.xx.fbcdn.net/v/t1.18169-9/11206007_1446373258993719_1632876929572131561_n.png?stp=dst-png_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=7aed08&_nc_ohc=2VH8jcspDyoAX-lTb9E&_nc_ht=scontent-gru1-2.xx&oh=00_AfC6EWf3onbQ5VD_163XgSnsrvxKduOairmpUnv_ilVFXQ&oe=648CEF5D"
-      },
-      {
-        "nome": "Cibau",
-        "logo": "https://seeklogo.com/images/C/Cibau-logo-3418EDDD35-seeklogo.com.png"
-      }
-    ],
-    "ultimasadocoes": [
-      {
-        "nome": "Desordem",
-        "imagem": "https://static1.patasdacasa.com.br/articles/3/39/03/@/16622-o-american-pitbull-e-um-doguinho-que-se-opengraph_1200-2.jpg"
-      },
-      {
-        "nome": "Trovão",
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vSpoqHN_B9IxwZ6oQhJH91VpgecpZdGAaQ&usqp=CAU"
-      },
-      {
-        "nome": "Bala",
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELrxEHx0AHJSclVVx1ZMCiT5ZFIjVw-s9HA&usqp=CAU"
-      }
-    ],
     "animaisDisponiveis": [
       {
         "nome": "Bala",
@@ -99,36 +63,6 @@
         "peso": "25Kg",
         "idade": "5 Anos",
         "localizacao": "Araraquara - SP"
-      }
-    ],
-    "noticias": [
-      {
-        "titulo": "Assim como pessoas com Alzheimer, cães idosos com demência têm menos sono profundo, diz estudo",
-        "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/04/cachorro-animais-saude-getty.jpg?w=876&h=484&crop=1",
-        "data": "03/05/2023 às 04:00",
-        "categoria": "Saúde",
-        "link": "https://www.cnnbrasil.com.br/saude/assim-como-pessoas-com-alzheimer-caes-idosos-com-demencia-tem-menos-sono-profundo-diz-estudo/"
-      },
-      {
-        "titulo": "Motorista atropela passeador com cinco cachorros e foge sem prestar socorro em SP",
-        "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/05/atropela-cachorro.png?w=350&h=195&crop=1",
-        "data": "01/05/2023 às 08:57",
-        "categoria": "Nacional",
-        "link": "https://www.cnnbrasil.com.br/nacional/motorista-atropela-passeador-com-cinco-cachorros-e-foge-sem-prestar-socorro-em-sp/"
-      },
-      {
-        "titulo": "Cachorro é resgatado por bombeiros após ficar três dias em poço em Itapipoca (CE)",
-        "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/04/corpo_de_bombeiros_resgate_ceara-4-e1682351750933.jpeg?w=350&h=195&crop=1",
-        "data": "24/04/2023 às 12:56",
-        "categoria": "Nacional",
-        "link": "https://www.cnnbrasil.com.br/nacional/cachorro-e-resgatado-por-bombeiros-apos-ficar-tres-dias-em-poco-em-itapipoca-ce/"
-      },
-      {
-        "titulo": "México envia cães para ajudar no resgate a vítimas de terremoto; veja",
-        "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/328161e0-edee-447d-92ad-3b72bd2caf07.jpg?w=350&h=195&crop=1",
-        "data": "07/02/2023 às 22:12",
-        "categoria": "Internacional",
-        "link": "https://www.cnnbrasil.com.br/internacional/mexico-envia-caes-para-ajudar-no-resgate-a-vitimas-de-terremoto-veja/"
       }
     ]
   }

@@ -9,15 +9,13 @@
 }
 
 .divSidebar{
-    width: 15%;
-    height: 60vh;
-    padding: 1em;
+    width: 20%;
     background-color: var(--roxoFundoEscuro);
     border-bottom-right-radius: 25px;
 }
 
 .divAnimais{
-    width: 80%;
+    width: 100%;
     padding: 1em;
 }
 
@@ -25,4 +23,59 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.divTitulo{
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordionItem{
+    padding: 1.5em 1em;
+    border-bottom: solid 2px var(--roxoEscuro);
+    border-bottom-right-radius: 25px;
+}
+
+.accordionItem>input{
+	display:none;
+}
+
+.accordionItem>label{
+    display:flex;
+    cursor:pointer;
+    color: var(--branco);
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.accordionContent{
+    height: 0px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    -ms-transition: height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+ }
+ 
+[id^=accordion]:checked ~ .accordionContent {
+    height: 100%;
+}
+
+.iconSeta{
+    filter: invert(1);
+    width: 20px;
+}
+
+.itemAccordion{
+    color: var(--branco);
+    font-size: 17px;
+    padding: .25em .5em;
+}
+
+.itemAccordion>input{
+    margin-right: 1em;
+    transform: scale(1.5);
 }

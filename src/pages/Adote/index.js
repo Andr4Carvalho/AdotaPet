@@ -85,7 +85,30 @@ function Adote(){
                             />
                         </label>
                         <div className={styles.accordionContent}>
-                            
+                            <article class="feature1">
+                                <input type="checkbox" id="feature1" />
+                                <div>
+                                    <span>
+                                        Pequeno
+                                    </span>
+                                </div>
+                            </article>
+                            <article class="feature2">
+                                <input type="checkbox" id="feature2" />
+                                <div>
+                                    <span>
+                                        Médio
+                                    </span>
+                                </div>
+                            </article>
+                            <article class="feature3">
+                                <input type="checkbox" id="feature3" />
+                                <div>
+                                    <span>
+                                        Grande
+                                    </span>
+                                </div>
+                            </article>
                         </div>
                     </div>
                     <div  className={styles.accordionItem}>

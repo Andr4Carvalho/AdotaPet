@@ -20,7 +20,7 @@ function Adote(){
             <div className={styles.divSidebar}>
                 <div> 
                     <div className={styles.accordionItem}>
-                        <input type="radio" name="accordion" id="accordion-1" />
+                        <input type="checkbox" name="accordion" id="accordion-1" />
                         <label for= "accordion-1">
                             <span>Espécie</span>
                             <img 
@@ -48,7 +48,7 @@ function Adote(){
                         </div>
                     </div> 
                     <div className={styles.accordionItem}>
-                        <input type="radio" name="accordion" id="accordion-2" />
+                        <input type="checkbox" name="accordion" id="accordion-2" />
                         <label for= "accordion-2">
                             <span>Idade</span>
                             <img 
@@ -76,7 +76,7 @@ function Adote(){
                         </div>
                     </div> 
                     <div  className={styles.accordionItem}>
-                        <input type="radio" name="accordion" id="accordion-3" />
+                        <input type="checkbox" name="accordion" id="accordion-3" />
                         <label for= "accordion-3">
                             <span>Porte</span>
                             <img 
@@ -86,7 +86,7 @@ function Adote(){
                         </label>
                         <div className={styles.accordionContent}>
                             <article class="feature1">
-                                <input type="checkbox" id="feature1" />
+                                <input type="checkbox" id="feature1" className={styles.checkSelecao} />
                                 <div>
                                     <span>
                                         Pequeno
@@ -94,7 +94,7 @@ function Adote(){
                                 </div>
                             </article>
                             <article class="feature2">
-                                <input type="checkbox" id="feature2" />
+                                <input type="checkbox" id="feature2" className={styles.checkSelecao} />
                                 <div>
                                     <span>
                                         Médio
@@ -102,7 +102,7 @@ function Adote(){
                                 </div>
                             </article>
                             <article class="feature3">
-                                <input type="checkbox" id="feature3" />
+                                <input type="checkbox" id="feature3" className={styles.checkSelecao} />
                                 <div>
                                     <span>
                                         Grande
@@ -112,7 +112,7 @@ function Adote(){
                         </div>
                     </div>
                     <div  className={styles.accordionItem}>
-                        <input type="radio" name="accordion" id="accordion-4" />
+                        <input type="checkbox" name="accordion" id="accordion-4" />
                         <label for= "accordion-4">
                             <span>Sexo</span>
                             <img 
@@ -120,10 +120,27 @@ function Adote(){
                                 className={styles.iconSeta} 
                             />
                         </label>
-                        <div className={styles.accordionContent}>Coisas de sexo aqui</div>
+                        <div className={styles.accordionContent}>
+                            <article class="feature4">
+                                <input type="checkbox" id="feature4" className={styles.checkSelecao} />
+                                <div>
+                                    <span>
+                                        Macho
+                                    </span>
+                                </div>
+                            </article>
+                            <article class="feature5">
+                                <input type="checkbox" id="feature5" className={styles.checkSelecao} />
+                                <div>
+                                    <span>
+                                        Fêmea
+                                    </span>
+                                </div>
+                            </article>
+                        </div>
                     </div>
                     <div  className={styles.accordionItem}>
-                        <input type="radio" name="accordion" id="accordion-5" />
+                        <input type="checkbox" name="accordion" id="accordion-5" />
                         <label for= "accordion-5">
                             <span>Localização</span>
                             <img 
@@ -131,7 +148,26 @@ function Adote(){
                                 className={styles.iconSeta} 
                             />
                         </label>
-                        <div className={styles.accordionContent}>Coisas de localização aqui</div>
+                        <div className={styles.accordionContent}>
+                        <select className={styles.selectLocalizacao}>
+                                <option selected>Estado</option>
+                                <option>Bahia</option>
+                                <option>São Paulo</option>
+                                <option>Sergipe</option>
+                                <option>Distrito Federal</option>
+                                <option>Ceará</option>
+                                <option>Mato Grosso</option>
+                            </select>
+                            <select className={styles.selectLocalizacao}>
+                                <option selected>Cidade</option>
+                                <option>Taquaritinga</option>
+                                <option>Monte Alto</option>
+                                <option>Araraquara</option>
+                                <option>Ribeirão Preto</option>
+                                <option>Santa Ernestina</option>
+                                <option>Américo Brasiliense</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>

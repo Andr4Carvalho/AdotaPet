@@ -5,6 +5,7 @@ import Contato from "pages/Contato";
 import Entrar from "pages/Entrar";
 import Cadastro from "pages/Cadastro";
 import Adote from "pages/Adote";
+import QuemSomos from "pages/QuemSomos";
 
 function AppRoutes(){
     return(
@@ -16,6 +17,7 @@ function AppRoutes(){
                     <Route path="/entrar" element={<Entrar />} />
                     <Route path="/cadastro" element={<Cadastro />} />
                     <Route path="/adote" element={<Adote />} />
+                    <Route path="/quemsomos" element={<QuemSomos />} />
                     {/*<Route path="*" element={NaoEncontrada} />*/}
                 </Route>
             </Routes>

@@ -10,7 +10,7 @@ function Entrar(){
                     <h2>ENTRAR</h2>
                 </Titulo>
                 <form>
-                    <div>
+                    <div className={styles.divLinha}>
                         <input
                             type="text"
                             name="nome"
@@ -18,13 +18,18 @@ function Entrar(){
                             className={styles.input}
                         />
                     </div>
-                    <div>
+                    <div className={styles.divLinha}>
                         <input
                             type="password"
                             name="Senha"
                             placeholder='Senha'
                             className={styles.input}
                         />
+                        <div className={styles.tooltip}>?
+                            <span className={styles.tooltiptext}>
+                                Sua senha deve ter no mínimo 8 caracteres e incluir uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais.
+                            </span>
+                        </div>
                     </div>
                     <div>
                         <Link className={styles.link}>

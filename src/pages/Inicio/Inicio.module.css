@@ -16,11 +16,14 @@
     border-radius: 25px;
 }
 
-p{
-    text-align: justify;
-}
-
 .cardsUltimasAdocoes{
     display: flex;
     justify-content: space-around;
+}
+
+.link{
+    display: flex;
+    color: var(--preto);
+    font-size: 20px;
+    margin: .5em 1em;
 }

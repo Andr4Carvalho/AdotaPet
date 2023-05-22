@@ -1,5 +1,6 @@
 import Titulo from 'components/Titulo';
 import styles from './FormCadastro.module.css';
+import { IMaskInput } from "react-imask";
 
 function FormCadastro() {
     return (
@@ -17,8 +18,8 @@ function FormCadastro() {
                     />
                 </div>
                 <div className={styles.linhaForm}>
-                    <input
-                        type="number"
+                    <IMaskInput
+                        mask="000.000.000-00"
                         name="cpf"
                         placeholder="CPF"
                         className={styles.input}

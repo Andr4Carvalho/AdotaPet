@@ -16,6 +16,9 @@ function Cabecalho(){
             <CabecalhoLink url="./Adote">
                 Adote já
             </CabecalhoLink>
+            <CabecalhoLink url="./QuemSomos">
+                Quem Somos
+            </CabecalhoLink>
             <CabecalhoLink url="./Contato">
                 Contato
             </CabecalhoLink>

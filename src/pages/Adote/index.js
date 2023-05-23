@@ -26,6 +26,7 @@ function Adote(){
                             <img 
                                 src={icone} 
                                 className={styles.iconSeta} 
+                                alt='Seta para abrir filtro'
                             />
                         </label>
                         <div className={styles.accordionContent}>
@@ -54,6 +55,7 @@ function Adote(){
                             <img 
                                 src={icone} 
                                 className={styles.iconSeta} 
+                                alt='Seta para abrir filtro'
                             />
                         </label>
                         <div className={styles.accordionContent}>
@@ -82,6 +84,7 @@ function Adote(){
                             <img 
                                 src={icone} 
                                 className={styles.iconSeta} 
+                                alt='Seta para abrir filtro'
                             />
                         </label>
                         <div className={styles.accordionContent}>
@@ -118,6 +121,7 @@ function Adote(){
                             <img 
                                 src={icone} 
                                 className={styles.iconSeta} 
+                                alt='Seta para abrir filtro'
                             />
                         </label>
                         <div className={styles.accordionContent}>
@@ -146,6 +150,7 @@ function Adote(){
                             <img 
                                 src={icone} 
                                 className={styles.iconSeta} 
+                                alt='Seta para abrir filtro'
                             />
                         </label>
                         <div className={styles.accordionContent}>

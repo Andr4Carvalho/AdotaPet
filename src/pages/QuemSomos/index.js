@@ -73,7 +73,8 @@ function QuemSomos(){
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.978400186911!2d-48.517864788284534!3d-21.430093980239533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b93bd3b48e7047%3A0x1808de33145ee4e0!2sFatec%20Taquaritinga!5e0!3m2!1spt-BR!2sbr!4v1684777435950!5m2!1spt-BR!2sbr" 
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade" 
-                    className={styles.mapa}/>
+                    className={styles.mapa}
+                    title='Localizacao da Ong'/>
             </section>
         </>
     )

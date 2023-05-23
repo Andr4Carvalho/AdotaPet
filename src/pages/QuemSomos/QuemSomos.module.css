@@ -1,13 +1,14 @@
 .cards{
     color: var(--branco);
-    margin: 2.5em 5em;
-    padding: 1em 5em;
+    margin: 2.5em 20em;
+    padding: 1em 10em;
     background-color: var(--roxoFundoEscuro);
     border-radius: 25px;
 }
 
 .textoQuemSomos{
     text-align: center;
+    font-size: 18px;
 }
 
 .negrito{

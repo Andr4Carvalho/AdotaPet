@@ -18,7 +18,6 @@ function AppRoutes(){
                     <Route path="/cadastro" element={<Cadastro />} />
                     <Route path="/adote" element={<Adote />} />
                     <Route path="/quemsomos" element={<QuemSomos />} />
-                    {/*<Route path="*" element={NaoEncontrada} />*/}
                 </Route>
             </Routes>
         </BrowserRouter>

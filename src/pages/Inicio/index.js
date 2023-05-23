@@ -35,7 +35,7 @@ function Inicio(){
                         return <CardUltimasAdocoesInicio {...adocao} key={adocao.nome} />
                     })}
                 </section>
-                <div>
+                <div className={styles.divMaisAnimais}>
                     <Link to="/Adote" className={styles.link}>
                         Ver mais animais
                     </Link>
@@ -43,7 +43,7 @@ function Inicio(){
             </section>
                 <section className={styles.cards}>
                     <Titulo>
-                        <h2>ÚLTIMAS ADOÇÕES</h2>
+                        <h2>Últimas adoções</h2>
                     </Titulo>
                     <section className={styles.cardsUltimasAdocoes}>
                         {ultimasAdocoes.map((adocao) => {
@@ -55,7 +55,7 @@ function Inicio(){
             <div className={styles.container}>
                 <section className={styles.cards}>
                     <Titulo>
-                        <h2>NOTÍCIAS</h2>
+                        <h2>Notícias</h2>
                     </Titulo>
                     <section>
                         {noticias.map((noticia) => {

@@ -1,4 +1,5 @@
 import Titulo from 'components/Titulo';
+import { IMaskInput } from 'react-imask';
 import styles from './Contato.module.css'
 
 function Contato(){
@@ -47,10 +48,10 @@ function Contato(){
                             />
                         </div>
                         <div>
-                            <input
-                                type="number"
+                            <IMaskInput
+                                mask="(00) 00000-0000"
                                 name="telefone"
-                                placeholder='Telefone'
+                                placeholder="Telefone"
                                 className={styles.input}
                             />
                         </div>

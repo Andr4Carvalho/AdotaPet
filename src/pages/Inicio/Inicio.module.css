@@ -19,11 +19,15 @@
 .cardsUltimasAdocoes{
     display: flex;
     justify-content: space-around;
+    height: 250px;
 }
 
 .link{
-    display: flex;
     color: var(--preto);
-    font-size: 20px;
+    font-size: 24px;
     margin: .5em 1em;
+}
+
+.divMaisAnimais{
+    text-align: end;
 }

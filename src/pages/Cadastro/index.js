@@ -7,7 +7,7 @@ function Cadastro(){
         <div className={styles.container}>
             <section className={styles.cards}>
                 <Titulo>
-                    <h2>CADASTRO</h2>
+                    <h1>CADASTRO</h1>
                 </Titulo>
                 <FormCadastro />
             </section>

@@ -13,8 +13,8 @@ function Entrar(){
                     <div className={styles.divLinha}>
                         <input
                             type="text"
-                            name="nome"
-                            placeholder="Nome"
+                            name="usuario"
+                            placeholder="Usuário"
                             className={styles.input}
                         />
                     </div>

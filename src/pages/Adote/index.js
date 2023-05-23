@@ -186,3 +186,22 @@ function Adote(){
 }
 
 export default Adote;
+
+
+/*
+ADICIONAR POPUP DE SAIBA MAIS DO BIXO
+MARCAR QUAL ESTA ATIVO
+
+NÃO FEITO:
+    Inicio: 
+        Regra 5
+
+    Adote:
+        Regra 7, não entendi e não vou meter um campo de busca por filtros
+        Regra 10, não carece de informações não, tem o necessário
+
+    Cadastro:
+        Regra 7, ignorada, não vejo necessidade de colocar
+        Regra 9, foi adicionada a mascara no campo cpf, nos outros é necessario entender a necessidade encontrada
+
+*/

@@ -124,11 +124,9 @@ function Cadastro(){
     }
 
     const handleSignup = () => {
-        console.log(estado);
-
-        if (!email | !senha | !nome | !cpf | !rg | !dtNasc | !logradouro | !numero | !bairro | !complemento | !cidade | estado == "" | !cep | !sexo) {
+        if (!email | !senha | !nome | !cpf | !rg | !dtNasc | !logradouro | !numero | !bairro | !complemento | !cidade | estado === "" | !cep | !sexo) {
             if(!cep) focusError(refInputCep);
-            if(estado == "") focusError(refInputEstado);
+            if(estado === "") focusError(refInputEstado);
             if(!cidade) focusError(refInputCidade);
             if(!complemento) focusError(refInputComplemento);
             if(!bairro) focusError(refInputBairro);

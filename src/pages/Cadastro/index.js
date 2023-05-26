@@ -36,7 +36,7 @@ function Cadastro(){
     const [estado, setEstado] = useState("");
     const refInputEstado = useRef();
     const [cep, setCep] = useState("");
-    const refInputCep = useRef();
+    const [erroCep, setErroCep] = useState(false);
 
     const [error, setError] = useState("");
     const navigate = useNavigate();
@@ -125,7 +125,7 @@ function Cadastro(){
 
     const handleSignup = () => {
         if (!email | !senha | !nome | !cpf | !rg | !dtNasc | !logradouro | !numero | !bairro | !complemento | !cidade | estado === "" | !cep | !sexo) {
-            if(!cep) focusError(refInputCep);
+            if(!cep) setErroCep(true);
             if(estado === "") focusError(refInputEstado);
             if(!cidade) focusError(refInputCidade);
             if(!complemento) focusError(refInputComplemento);
@@ -245,7 +245,7 @@ function Cadastro(){
                         placeholder="CPF"
                         className={!erroCpf ? styles.input : styles.inputErro}
                         value={cpf}
-                        onAccept={(value) => [setCpf(value), setError("")]}
+                        onAccept={(value) => [setCpf(value), setError(""), setErroCpf(false)]}
                     />
                     <input
                         type="number"
@@ -273,7 +273,7 @@ function Cadastro(){
                             id="inputDtNasc"
                             className={styles.inputNascimento}
                             value={dtNasc}
-                            onChange={(e) => [setDtNasc(e.target.value), setError(""), refInputDtNasc.current.style.border = "1px solid white"]}
+                            onChange={(e) => [setDtNasc(true), setError(""), refInputDtNasc.current.style.border = "1px solid white"]}
                         />
                     </div>
                     <div className={styles.inputLabel} ref={refInputSexo}>
@@ -285,7 +285,7 @@ function Cadastro(){
                                 id="sexoMasc"
                                 className={styles.inputRadio}
                                 value={sexo}
-                                onChange={(e) => [setSexo(e.target.value), setError("")]}
+                                onChange={(e) => [setSexo(true), setError(""), refInputSexo.current.style.border = "1px solid white"]}
                             />
                             Masculino
                         </label>
@@ -296,7 +296,7 @@ function Cadastro(){
                                 id="sexoFem"
                                 className={styles.inputRadio}
                                 value={!sexo}
-                                onChange={(e) => [setSexo(!e.target.value), setError("")]}
+                                onChange={(e) => [setSexo(!e.target.value), setError(""), refInputSexo.current.style.border = "1px solid white"]}
                             />
                             Feminino
                         </label>
@@ -393,14 +393,13 @@ function Cadastro(){
                         <option value="TO">Tocantins</option>
                         <option value="EX">Estrangeiro</option>
                     </select>
-                    <input
-                        type="number"
+                    <IMaskInput
+                        mask="00000-000"
                         name="cep"
                         placeholder="CEP"
-                        className={styles.input}
+                        className={!erroCep ? styles.input : styles.inputErro}
                         value={cep}
-                        onChange={(e) => [setCep(e.target.value), setError(""), refInputCep.current.style.border = "1px solid white"]}
-                        ref={refInputCep}
+                        onAccept={(value) => [setCep(value), setError("")]}
                     />
                 </div>
                 <Titulo>

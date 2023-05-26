@@ -48,11 +48,11 @@
 }
 
 .divDados{
-    padding: 1em;
+    padding: 0em 1em;
 }
 
 .imagemModal{
     width: 500px;
-    height: 400px;
+    height: 425px;
     object-fit: cover;
 }

@@ -49,3 +49,37 @@
     font-size: 18px;
     text-transform: uppercase;
 }
+
+.divBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnModal{
+    width: 48%;
+    height: 60px;
+    color: var(--branco);
+    background-color: transparent;
+    border-radius: 15px;
+    margin: 10px 0px;
+    border-color: var(--branco);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnModal:hover{
+    background-color:var(--roxoFundoEscuro);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.divLinhaDetalhes{
+    margin: 8px 5px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.divLinhaDetalhes>span{
+    font-size: 18px;
+    font-weight: 600;
+}

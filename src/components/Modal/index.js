@@ -11,7 +11,7 @@ function Modal({isOpen, setModalOpen, titulo, imagem, children}){
                     <br/>
                     <div className={styles.divLinha}>
                         <div>
-                            <img src={imagem} className={styles.imagemModal} />
+                            <img src={imagem} alt={titulo} className={styles.imagemModal} />
                         </div>
                         <div className={styles.divDados}>
                             {children}

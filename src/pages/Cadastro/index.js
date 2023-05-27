@@ -41,7 +41,7 @@ function Cadastro(){
     const [error, setError] = useState("");
     const navigate = useNavigate();
     const {signup} = useAuth();
-    const regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
+    const regName = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
     const regEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
     const regSenha = /^(?=.*\d)(?=.*[.!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
 
@@ -168,6 +168,7 @@ function Cadastro(){
         if(!validarCPF(cpf).valido){
             setError("Informe um CPF válido!");
             notifyError("Informe um CPF válido!");
+            setErroCpf(true)
             return;
         }
     
@@ -273,7 +274,7 @@ function Cadastro(){
                             id="inputDtNasc"
                             className={styles.inputNascimento}
                             value={dtNasc}
-                            onChange={(e) => [setDtNasc(true), setError(""), refInputDtNasc.current.style.border = "1px solid white"]}
+                            onChange={(e) => [setDtNasc(e.target.value), setError(""), refInputDtNasc.current.style.border = "1px solid white"]}
                         />
                     </div>
                     <div className={styles.inputLabel} ref={refInputSexo}>
@@ -399,7 +400,7 @@ function Cadastro(){
                         placeholder="CEP"
                         className={!erroCep ? styles.input : styles.inputErro}
                         value={cep}
-                        onAccept={(value) => [setCep(value), setError("")]}
+                        onAccept={(value) => [setCep(value), setError(""), setErroCep(false)]}
                     />
                 </div>
                 <Titulo>

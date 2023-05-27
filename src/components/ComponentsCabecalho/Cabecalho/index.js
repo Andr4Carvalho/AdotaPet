@@ -3,6 +3,24 @@ import styles from "./Cabecalho.module.css";
 import logo from './logo.png'
 import CabecalhoLink from "components/ComponentsCabecalho/CabecalhoLink";
 import CabecalhoBotao from "components/ComponentsCabecalho/CabecalhoBotao";
+import useAuth from "hooks/useAuth";
+import CabecalhoUsuario from "../CabecalhoUsuario";
+
+const Private = () => {
+    const { signed } = useAuth();
+
+    if(signed > 0){
+        return(
+            <CabecalhoUsuario/>
+        )
+    } else {
+        return(
+            <CabecalhoBotao url="./Entrar">
+                Entrar
+            </CabecalhoBotao>
+        )
+    }
+}
 
 function Cabecalho(){
     return (
@@ -22,9 +40,7 @@ function Cabecalho(){
             <CabecalhoLink url="./Contato">
                 Contato
             </CabecalhoLink>
-            <CabecalhoBotao url="./Entrar">
-                Entrar
-            </CabecalhoBotao>
+            <Private />
         </header>
     )
 }

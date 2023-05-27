@@ -92,3 +92,15 @@
     font-weight: 600;
     color: rgb(231, 76, 60);
 }
+
+.verSenha{
+    font-size: 26px;
+    display: inline-block;
+    align-items: center;
+    padding: 5px .5em;
+    margin-left: 10px;
+    background-color: var(--roxoFundo);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

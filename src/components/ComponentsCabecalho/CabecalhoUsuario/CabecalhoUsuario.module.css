@@ -1,0 +1,33 @@
+.dropdown{
+    color: var(--branco);
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: var(--roxoFundo);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.botao{
+    width: 100%;
+    color: var(--branco);
+    font-size: 24px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.marginIcon{
+    margin: 0px 15px;
+}

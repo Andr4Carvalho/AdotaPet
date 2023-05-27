@@ -7,6 +7,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Entrar(){
+    const [verSenha, setVerSenha] = useState(false);
+    const icone = !verSenha ? "fa-regular fa fa-eye" : "fa-regular fa fa-eye-slash";
+
     const {signin} = useAuth();
     const navigate = useNavigate();
 
@@ -45,12 +48,14 @@ function Entrar(){
         }
 
         if(!regEmail.test(email) || email.length < 10){
+            focusError(refInputEmail);
             setError("Informe um email válido!");
             notifyError("Informe um email válido!");
             return;
         }
 
         if(!regSenha.test(senha)){
+            focusError(refInputSenha);
             setError("Informe uma senha válida!");
             notifyError("Informe uma senha válida!");
             return;
@@ -95,13 +100,16 @@ function Entrar(){
                 </div>
                 <div className={styles.divLinha}>
                     <input
-                        type="password"
+                        type={!verSenha ? "password" : "text"}
                         placeholder='Digite sua Senha'
                         className={styles.input}
                         value={senha}
                         onChange={(e) => [setSenha(e.target.value), setError(""), refInputSenha.current.style.border = "1px solid white"]}
                         ref={refInputSenha}
                     />
+                    <span className={styles.tooltip} onClick={() => setVerSenha(!verSenha)}>
+                        <i class={icone} />
+                    </span>
                     <div className={styles.tooltip}>?
                         <span className={styles.tooltiptext}>
                             Sua senha deve conter no mínimo 8 caracteres, um letra maiúscula, um número e um símbolo.
